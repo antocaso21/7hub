@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Interpretazione grafica astratta dei campi e dei percorsi del Tavoliere delle Puglie">
+<rect width="800" height="800" fill="#6556e5"/>
+<path d="M0 170 800 0V198L0 383Z" fill="#d5ff7a"/>
+<path d="m0 395 800-180v200L0 583Z" fill="#a1a4f6"/>
+<path d="m0 603 800-175v135L0 750Z" fill="#292c5d"/>
+<path d="m150 800 650-220v220Z" fill="#d5ff7a"/>
+<path d="M207 0 419 800M550 0 674 800M0 115 800 623" stroke="#f8f8f4" stroke-width="6" opacity=".86" fill="none"/>
+<circle cx="475" cy="407" r="55" fill="#fff"/><circle cx="475" cy="407" r="24" fill="#6556e5"/>
+<path d="M475 464v72" stroke="#fff" stroke-width="14" stroke-linecap="round"/><path d="m449 521 26 32 26-32" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
