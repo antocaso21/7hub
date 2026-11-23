@@ -149,3 +149,72 @@ a:hover{color:var(--magenta)}
 .project-title-art{height:110px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-weight:900;font-size:1.4rem;line-height:1.15;letter-spacing:-.04em;border-radius:17px;background:linear-gradient(135deg,#26105f,#ab3ab6 70%,#f78e39);padding:10px}
 @media(max-width:900px){.brand-strip-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.brand-strip-grid{grid-template-columns:1fr 1fr}}
+
+
+/* 7HUB — Revisione leggibilità e spaziatura, novembre 2026. */
+html{overflow-x:clip}
+body{overflow-wrap:break-word}
+main p, main li{line-height:1.78;hyphens:auto}
+main p{margin-block:0 1.35rem}
+main h1,main h2,main h3{overflow-wrap:normal;hyphens:none}
+main h2{line-height:1.19;letter-spacing:-.038em;margin-bottom:1.05rem}
+main h3{line-height:1.26;letter-spacing:-.025em;margin-bottom:.85rem}
+main h2+p,main h3+p{margin-top:.65rem}
+main p+p{margin-top:.9rem}
+main p:last-child{margin-bottom:0}
+.section-title{margin-bottom:clamp(30px,4vw,48px)}
+.section-title .eyebrow{margin-bottom:4px}
+.section-title .section-subtitle,.section-title .lead{margin-top:14px;line-height:1.72}
+.eyebrow{line-height:1.5;letter-spacing:.13em}
+.page-hero p{max-width:850px;line-height:1.75;margin-top:17px;margin-bottom:24px}
+.page-hero .tags,.hero-tags{display:flex;flex-wrap:wrap;column-gap:12px;row-gap:9px}
+.page-hero .tags span,.hero-tags span{line-height:1.5;white-space:normal}
+.site-nav{gap:clamp(14px,1.4vw,24px)}
+.site-nav a{display:inline-flex;align-items:center;line-height:1.5}
+.site-nav a+a{margin-left:2px}
+.ticker-inner{gap:38px}
+.ticker-inner span{display:inline-flex;align-items:center;gap:12px;line-height:1.5}
+.ticker-inner span+span:before{margin-right:0}
+.btn-row{gap:14px;row-gap:12px}
+.link-arrow{line-height:1.45;gap:9px}
+.grid-3,.project-logo-grid,.media-grid{row-gap:26px}
+.service-card,.project-logo-card,.story-panel,.info-card,.backup-pillar{overflow-wrap:anywhere}
+.service-card{gap:12px}
+.service-card h3,.service-card p{margin:0}
+.service-card .service-symbol{margin:13px 0}
+.service-card .link-arrow{margin-top:auto;padding-top:12px}
+.project-logo-card{gap:16px}
+.project-logo-card .meta{line-height:1.55}
+.project-logo-card h3{line-height:1.23;margin:0}
+.project-logo-card p{line-height:1.7;margin:0 0 4px}
+.project-logo-card .project-link-row{margin-top:auto;padding-top:7px}
+.media-card figcaption{line-height:1.6}
+.backup-pillar h3{margin:0 0 12px}
+.backup-pillar p{line-height:1.76}
+.story-panel p{line-height:1.82}
+.story-panel p+p{margin-top:1rem}
+.info-card ul{padding-left:1.25rem}
+.info-card li+li{margin-top:9px}
+.resource-row{gap:20px}
+.resource-row p{margin:7px 0 0}
+.contact-card p{margin-bottom:1.15rem;line-height:1.7}
+.footer-bottom-official nav{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px}
+.footer-bottom-official nav a{margin:0}
+.footer-identity-copy p{line-height:1.6}
+/* Leadership: distinguished editorial card, no portrait or credentials invented. */
+.leadership-section{background:linear-gradient(135deg,#f6e9ff,#fff5ed 55%,#fff)}
+.leadership-grid{display:grid;grid-template-columns:minmax(220px,.72fr) minmax(0,1.28fr);gap:clamp(25px,5vw,70px);align-items:center}
+.leadership-monogram{min-height:320px;border-radius:30px;background:radial-gradient(circle at 68% 24%,#ef63a0,transparent 35%),linear-gradient(135deg,#27105f,#632baf 55%,#ed7b3f);color:white;display:flex;flex-direction:column;gap:26px;align-items:center;justify-content:center;box-shadow:0 20px 50px #3411672a}
+.leadership-orbit{width:165px;height:165px;border-radius:50%;border:5px solid #ff9c5b;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 17px #ffffff16,0 0 0 31px #ffffff0d}
+.leadership-orbit span{font-size:3.2rem;font-weight:850;letter-spacing:-.08em}
+.leadership-monogram small{font-size:.72rem;font-weight:800;letter-spacing:.14em}
+.leadership-copy h2{margin:15px 0 6px;font-size:clamp(2.4rem,4.4vw,4.4rem)}
+.leadership-copy .leadership-role{display:inline-block;font-size:.92rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6328b7;background:#fff;border:1px solid #decdf6;border-radius:99px;padding:9px 17px;margin-bottom:20px}
+.leadership-copy>p:not(.leadership-role){font-size:1.06rem;max-width:690px;color:#41314f}
+.home-governance-inner{display:flex;align-items:center;justify-content:space-between;gap:30px;border-top:1px solid #dec9f2;padding-top:45px}
+.home-governance-inner>div{max-width:770px}
+.home-governance h2{font-size:clamp(1.9rem,3.3vw,3rem);margin:15px 0}
+.home-governance p{color:var(--muted)}
+.home-governance .btn{flex-shrink:0}
+@media(max-width:900px){.leadership-grid{grid-template-columns:1fr}.leadership-monogram{min-height:250px}.home-governance-inner{flex-direction:column;align-items:start}.site-nav a+a{margin-left:0}.site-nav{gap:6px}.page-hero p{max-width:100%}}
+@media(max-width:600px){.leadership-monogram{min-height:200px}.leadership-orbit{height:115px;width:115px}.leadership-orbit span{font-size:2.4rem}.home-governance-inner{padding-top:30px}}
